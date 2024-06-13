@@ -9,7 +9,7 @@ Recently, Twitter has banned almost every Twitter scraper. This repository prese
 
 It is also possible to download the images showed in tweets by passing the argument `save_images = True`. If you only want to scrape images, it is recommended to set the argument `display_type = image` to show only tweets that contain images. 
 
-Authentication is required for scraping followers/following. It is recommended to log in with a new account, otherwise the account could be banned if the list of followers is very long. To log in to your account, you need to enter your username `SCWEET_USERNAME` and password `SCWEET_PASSWORD` in the [.env](https://github.com/Altimis/Scweet/blob/master/.env) file. You can control the `wait` parameter in the `get_users_followers` and `get_users_following` functions according to you internet speed. 
+Authentication is required for scraping followers/following. It is recommended to log in with a new account, otherwise the account could be banned if the list of followers is very long. To log in to your account, you need to enter your username `SCWEET_USERNAME` and password `SCWEET_PASSWORD` in the [.env](https://github.com/hayden-droid/Scweet/blob/master/.env) file. You can control the `wait` parameter in the `get_users_followers` and `get_users_following` functions according to you internet speed. 
 
 ## Requirements : 
 
